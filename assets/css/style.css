@@ -845,7 +845,11 @@ section {
   animation: none;
   border-radius: 0;
 }
-
+.about .video-box {
+  background: url("../img/about.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
 @keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
